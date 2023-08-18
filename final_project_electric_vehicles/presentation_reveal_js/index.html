@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Seaborn Seeds">
+  <title>Tayyaba Saleem</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="all.min.css"/>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Tayyaba Saleem</h1>
+  <p class="subtitle">Final Project Presentation</p>
+  <p class="author">Seaborn Seeds</p>
+  <p class="date">14-08-2023</p>
+</section>
+
+<section>
+<section
+id="evolving-horizons-unplugging-the-future-of-electric-vehicles"
+class="title-slide slide level2">
+<h2>Evolving Horizons: Unplugging the Future of Electric Vehicles</h2>
+
+</section>
+<section id="focus-areas" class="slide level3">
+<h3>Focus Areas</h3>
+<ul>
+<li>EV Adoption Trends Across Regions</li>
+<li>Influential Factors in EV Adoption</li>
+<li>Manufacturer Comparison and Charging Infrastructure</li>
+<li>Sustainable Future: CO2 Emissions</li>
+<li>Conclusion</li>
+</ul>
+</section>
+<section id="tech-stack" class="slide level3">
+<h3>Tech Stack</h3>
+<ul>
+<li>Python</li>
+<li>Pandas</li>
+<li>Plotly</li>
+<li>NumPy</li>
+<li>Reveal.js</li>
+<li>Tableau</li>
+</ul>
+</section>
+<section
+id="investigate-the-patterns-of-electric-vehicle-adoption-across-time-contrasting-adoption-rates-among-different-regions"
+class="slide level3">
+<h3>Investigate the patterns of electric vehicle adoption across time,
+contrasting adoption rates among different regions</h3>
+</section>
+<section id="ev-sales-over-the-years" class="slide level3">
+<h3>EV Sales over the Years</h3>
+<iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/sales_over_years_bev_phev.html" height="400" width="100%">
+</iframe>
+<style>
+  .bullet-list {
+    font-size: 10px; /* Default font size */
+  }
+  .custom-text {
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+    .custom-small {
+    font-size: 13px; /* Adjust the font size as needed */
+    font-weight: bold;
+    }
+    .custom-medium {
+    font-size: 14px; /* Adjust the font size as needed */
+    font-weight: bold;
+    }
+    .custom-text_20 {
+    font-size: 22px; /* Adjust the font size as needed */
+    font-weight: bold;
+    }
+    
+</style>
+<p><span class="bullet-list"><span style="font-weight: bold;">BEV :
+Battery Electric Vehicle</span> <span class="bullet-list"><span
+style="font-weight: bold;">PHEV: Plug-in Hybrid Electric
+Vehicle</span></p>
+<p><span class="bullet-list custom-text">Over <span
+style="color: orange; font-weight: bold;">25 million</span> electric
+cars were on the road in <span
+style="color: orange; font-weight: bold;">2022</span>, 60% relative to
+2021 and more than 5 times the stock in 2018</span></p>
+</section>
+<section id="ev-adoption-rate-among-regions" class="slide level3">
+<h3>EV Adoption Rate Among Regions</h3>
+<p><iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/donut_chart_sales_share_regions.html" height="380" width="45%"></iframe>
+<iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/bars_sales_shares_regions.html" height="380" width="45%"></iframe></p>
+<ul>
+<li><span class="bullet-list custom-text">Global EV sales were <span
+style="color: orange; font-weight: bold;">10 million</span> units in
+2022, a 55% rise from 2021</span></li>
+<li><span class="bullet-list custom-text">China, accounting for over
+half of global electric car sales with <span
+style="color: orange; font-weight: bold;">5.9 million</span> units,
+experienced a 60% increase</span></li>
+</ul>
+</section>
+<section id="influential-factors-in-ev-adoption" class="slide level3">
+<h3>Influential Factors in EV Adoption</h3>
+<ul>
+<li>Purchase Price</li>
+<li>Range (Distance travelled with one recharge)</li>
+<li>Government Incentives</li>
+</ul>
+</section>
+<section id="purchase-price" class="slide level3">
+<h3>Purchase Price</h3>
+<iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/BEV_price_trend_years_new.html" height="300" width="100%">
+</iframe>
+<ul>
+<li>
+<span class="bullet-list custom-text">Reduction in Price:</span>
+<ul>
+<li>
+<span class="bullet-list custom-small">Growing number of automakers
+entering the EV market</span>
+</li>
+<li>
+<span class="bullet-list custom-small">Cost-efficient production of EV
+components</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<span class="bullet-list custom-text">Rise in Price</span>
+<ul>
+<li>
+<span class="bullet-list custom-small">Advanced features and Premium
+models</span>
+</li>
+<li>
+<span class="bullet-list custom-small">Semi-conductor shortage in
+Covid-19 </span>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="range" class="slide level3">
+<h3>Range</h3>
+<ul>
+<li><span class="bullet-list custom-text"><span
+style="font-weight: bold;">Range Anxeity: Running out of battery charge
+before reaching the destination or a charging station</span></li>
+<li><span class="bullet-list custom-text"><span
+style="font-weight: bold;">Range Enhancement: Advancements in battery
+materials and engineering to increase battery capacity</span></li>
+</ul>
+<iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/EV_range_trend_years.html" height="300" width="100%">
+</iframe>
+</section>
+<section id="government-incentives" class="slide level3">
+<h3>Government Incentives</h3>
+<ul>
+<li><span class="bullet-list custom-medium">Providing financial aid
+through grants and subsidies</span></li>
+<li><span class="bullet-list custom-medium">Offering benefits such as
+reduced/waived road taxes, registration fees, and other vehicle-related
+levies</span></li>
+<li><span class="bullet-list custom-medium">Establishing public charging
+stations and facilitating discounted charging services</li>
+<li><span class="bullet-list custom-medium">Allowing access to
+low-emission zones and city centers</li>
+</ul>
+<p><img data-src="assets/incentives.png" style="width:60.0%" /></p>
+</section>
+<section id="manufacturer-comparison-and-charging-infrastructure"
+class="slide level3">
+<h3>Manufacturer Comparison and Charging Infrastructure</h3>
+</section>
+<section id="feature-analysis" class="slide level3">
+<h3>Feature Analysis</h3>
+<p><img data-src="assets/man_analysis_l.png" style="width:100.0%" /></p>
+</section>
+<section id="top-ev-models-around-the-globe" class="slide level3">
+<h3>Top EV Models Around The Globe</h3>
+<p><img data-src="assets/top_ev_models.png" style="width:80.0%" /></p>
+</section>
+<section id="charging-infrastructure" class="slide level3">
+<h3>Charging Infrastructure</h3>
+<p><iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/charging_stat_trend_years.html" height="400" width="100%"></iframe></p>
+</section>
+<section id="charging-stations-in-germany" class="slide level3">
+<h3>Charging Stations in Germany</h3>
+<iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/charging_stat_germany.html" height="400" width="80%">
+</iframe>
+<p><span class="bullet-list custom-text"><span style="font-weight: bold;">Total
+Charging Points till Feb 2023: <span
+style="color: #f77f00;">71,263</span></p>
+</section>
+<section id="sustainable-future-co2-emissions" class="slide level3">
+<h3>Sustainable Future: CO2 Emissions</h3>
+</section>
+<section id="how-much-c02-a-medium-size-car-emits-per-km"
+class="slide level3">
+<h3>How much C02 a medium size car emits per km?</h3>
+<ul>
+<li>If it is electric :
+<span style="color: orange; font-weight: bold;">75g</li>
+<li>If it is gasoline:
+<span style="color: orange; font-weight: bold;">241g</li>
+</ul>
+</section>
+<section id="worst-case-vs-best-case-scenario" class="slide level3">
+<h3>Worst Case Vs Best Case Scenario</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Worst Case</strong></th>
+<th><strong>Best Case</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Electric car with Chinese-made battery, driven in Poland</td>
+<td>Electric car with Swedish-made battery, driven in Sweden</td>
+</tr>
+<tr class="even">
+<td>CO2 Emission Reduction: <span
+style="color: orange; font-weight: bold;">37%</span> compared to
+petrol</td>
+<td>CO2 Emission Reduction: <span
+style="color: orange; font-weight: bold;">83%</span> compared to
+petrol</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="vehicles-carbon-emission-over-time" class="slide level3">
+<h3>Vehicles Carbon Emission Over Time</h3>
+<iframe scrolling="no" style="border:none;" seamless="seamless" data-src="assets/combined_co2_emission_years_km.html" height="400" width="100%">
+</iframe>
+</section>
+<section id="conclusion" class="slide level3">
+<h3>Conclusion</h3>
+<ul>
+<li><p><span class="bullet-list custom-text_20"> Global Shift Towards
+Electric Mobility</span></p></li>
+<li><p><span class="bullet-list custom-text_20">Factors influencing EV
+adoption, such as purchase price, range and government incentives
+highlight the diverse aspects of this transformation</span></p></li>
+<li><p><span class="bullet-list custom-text_20">The collective efforts
+of governments, industries, and individuals become paramount in driving
+positive change</span></p></li>
+<li><p><span class="bullet-list custom-text_20">Make informed choices,
+and unite efforts for a sustainable future</span></p></li>
+</ul>
+</section>
+<section id="section" class="slide level3">
+<h3></h3>
+<p><img data-src="assets/customer-experience.gif"
+style="width:60.0%" /></p>
+<p><span style="color: #fff500; font-weight: bold;">The road ahead is
+long, but together, we are driving change – one electric km at a
+time</span></p>
+</section>
+<section id="references" class="slide level3">
+<h3>References</h3>
+<p><span class="bullet-list"> <span style="font-size: 10px;"> - Kaggle -
+<a href="https://www.kaggle.com/datasets/edsonmarin/historic-sales-of-electric-vehicles">Historic
+Sales of Electric Vehicles</a> -
+<a href="https://www.kaggle.com/datasets/saketpradhan/alternative-fuel-vehicles-in-the-us">Alternative
+Fuel Vehicles in the US</a> </span> </span></p>
+<p><span class="bullet-list"> <span style="font-size: 10px;"> -
+International Energy Agency (IEA) -
+<a href="https://www.iea.org/data-and-statistics/data-tools/global-ev-data-explorer">Global
+EV Data Explorer </a> </span> </span></p>
+<p><span class="bullet-list"> <span style="font-size: 10px;"> -
+Environmental Protection Agency US (EPA) -
+<a href="https://www.epa.gov/automotive-trends/explore-automotive-trends-data">Explore
+Automotive Trends Data</a> </span> </span></p>
+<p><span class="bullet-list"> <span style="font-size: 10px;"> - Electric
+Vehicle Charging in Germany -
+<a href="https://www.kaggle.com/datasets/mexwell/electric-vehicle-charging-in-germany">Electric
+Vehicle Charging in Germany</a> </span> </span></p>
+<p><span class="bullet-list"> <span style="font-size: 10px;"> -
+Different Articles - <a href="https://www.ev-volumes.com/">EV
+Volumes</a> -
+<a href="https://alternative-fuels-observatory.ec.europa.eu/general-information/news/european-ev-market-analysis-strong-growth-continues-plug-vehicle">European
+EV Market Analysis</a> -
+<a href="https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/electric-or-conventional-car-2018-05-15_en">Electric
+or Conventional Car</a> -
+<a href="https://www.panion.org/ev-incentives-2023-these-6-countries-promote-e-mobility-the-most/">EV
+Incentives 2023</a> -
+<a href="https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars">Are
+Electric Vehicles Definitely Better for the Climate?</a> </span>
+</span></p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: true,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: true,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
